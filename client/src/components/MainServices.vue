@@ -1,18 +1,18 @@
 <template>
   <div class="h-full w-full relative flex flex-col items-center bg-primary">
     <div
-      class="flex items-center justify-around h-[40%] py-4 gap-6 mx-52 bg-white max-sm:mx-6 max-xl:mx-16"
+      class="flex w-[90%] items-center justify-around h-[40%] py-4 gap-6 bg-white max-sm:mx-6 max-xl:mx-16"
     >
       <div
-        class="h-full flex flex-col items-center gap-6 text-center max-sm:hidden max-lg:w-[40%] xl:flex-row"
+        class="h-full flex flex-col items-center gap-6 text-center max-md:hidden max-lg:w-[40%] xl:flex-row"
       >
-        <img class="w-full h-full object-contain" src="/barber-pole.gif" alt="" />
+        <img class="w-[300px] h-[300px] max-lg:w-[200px] max-lg:h-[200px] object-contain" src="/barber-pole.gif" alt="barberPole" />
         <div class="flex flex-col">
           <span class="text-2xl font-bold max-lg:text-xl">OUR SERVICES</span>
           <span class="text-2xl font-bold max-lg:text-xl">BARBERSHOP</span>
         </div>
       </div>
-      <video autoplay loop muted class="w-full h-full max-sm:object-cover">
+      <video autoplay loop muted class="w-[50%] h-full max-sm:object-cover max-md:w-full">
         <source src="/serviceVideo.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
