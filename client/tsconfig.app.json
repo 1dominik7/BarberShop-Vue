@@ -4,7 +4,8 @@
     "env.d.ts",
     "src/**/*",
     "src/**/*.vue",
-    "api/**/*"  // Include the api directory
+    "api/**/*",
+    "src/types/**/*"
   ],
   "exclude": [
     "src/**/__tests__/*"
